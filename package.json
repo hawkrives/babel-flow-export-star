@@ -1,0 +1,16 @@
+{
+  "name": "babel-flow-export-star",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "flow": "flow",
+    "babel": "babel *.js --out-dir compiled/"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "0.58.0"
+  }
+}
