@@ -22,6 +22,8 @@ In `index.js`, which could be another package entirely, I want to use one of the
 import {type Base} from './export';
 
 let dog: Base = {str: "a string"};
+
+// $FlowExpectedError
 let cat: Base = {str: Infinity};
 ```
 
